@@ -115,3 +115,6 @@ keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
 -- git
 keymap.set("n", "<leader>gs", vim.cmd.Git)
+
+-- prevent losing paste register
+keymap.set("x", "<leader>p", "\"_dP")
